@@ -1,0 +1,28 @@
+{
+  "name": "@privyid/nuxt-csrf",
+  "version": "1.0.0",
+  "description": "Module CSRF for NUXT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privy-open-source/nuxt-csrf.git"
+  },
+  "keywords": [
+    "csrf",
+    "nuxt",
+    "nuxt-module"
+  ],
+  "author": "Ade Novid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/privy-open-source/nuxt-csrf/issues"
+  },
+  "homepage": "https://github.com/privy-open-source/nuxt-csrf#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0"
+  }
+}
