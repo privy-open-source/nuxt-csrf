@@ -32,12 +32,12 @@ include in `nuxt.config.js`
 
 ### Get Token
 
-### via Component
+#### via Component
 ```js
 const token = this.$csrfToken()
 ```
 
-#### via context
+#### via Context
 
 ```js
 const token = context.app.$csrfToken()
@@ -55,7 +55,7 @@ If you using [@nuxtjs/axios][nuxt-axios], this module must be registered before 
   ]
 }
 ```
-#### Autosend CSRF Token
+### Autosend CSRF Token
 
 If you want axios automatically send CSRF Token in every request, you can add this into your axios's interceptors. If you not familiar with it before, goto [this][nuxt-axios-extend].
 ```js
