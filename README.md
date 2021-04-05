@@ -1,5 +1,5 @@
 # nuxt-csrf
-Module CSRF for NUXT
+> Module CSRF for NUXT
 
 ## Installation
 
